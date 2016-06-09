@@ -1,0 +1,1117 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0465E1EDE1ADED2F887A3AC0909F2D85 /* PKAnimating.h in Headers */ = {isa = PBXBuildFile; fileRef = 64EBA440A40E2F65E7E8EF28ACD66342 /* PKAnimating.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07E636373546F8C93CEF55C1D2BE6EBA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091D54A73E1E8BB182C9D7D245AF1C2F /* UIKit.framework */; };
+		0BE3DE928A22D4BE2E23058F40E8D04D /* SwipeDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0CE5FFF7B692D43E1AD0F19C78681C /* SwipeDirection.swift */; };
+		1137ACB107DB5624EE8108210F0E1D39 /* FXPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = C8AA4CF2CDCFEF465464BB49BAAAAC78 /* FXPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D881C8C40187152969C633014D9D160 /* FXPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3FE1C52238D73EF135823770F4A795 /* FXPageControl.m */; };
+		1FCBC286E71EE556C6284B92A9640907 /* Pods-CardView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48937C77CF59A07A3550173C03E76FF3 /* Pods-CardView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27C2AF9B3DAC877CC1EC6A7FD4AAD1BB /* PagerTabStripBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095D1CAC454EA6AA6ECE8C106CA3AB97 /* PagerTabStripBehaviour.swift */; };
+		2868EE473649395DE9D024CF5B1E8FE5 /* BarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E020309AFBA88C041D1BE815305821 /* BarPagerTabStripViewController.swift */; };
+		28BA9576237D42BCBC712DD192B91963 /* CALayer+PKConvenienceAnimations.h in Headers */ = {isa = PBXBuildFile; fileRef = 51FE024DAFB02848EA95D7E860B93B27 /* CALayer+PKConvenienceAnimations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		296ED5CB8E219FBC1FBE2811E3309073 /* PagerTabStripError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEDD73158285BB1C33D663D7B33232A /* PagerTabStripError.swift */; };
+		2A26880EE73AD208DE059BEE5A1E9F3A /* CAAnimation+PKIdentifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 59919A9528DE1EB1F78E82A5CEB20CEC /* CAAnimation+PKIdentifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B75C6FBDA841C12DF0B1372396E61DE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23016F69B2480F44D0BB5526B39192FA /* QuartzCore.framework */; };
+		303226E8F91388E4D15C24A2F8231972 /* ButtonBarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03D1E7564824F5A0C763415C0AF9CFB /* ButtonBarPagerTabStripViewController.swift */; };
+		33DA7FEA9695FFA9EB2D53A98E092666 /* ButtonBarViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4882C4998CA17556CA22C879E613BB /* ButtonBarViewCell.swift */; };
+		3F2D3EB9A032EDEC0309A79817FF78D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */; };
+		3F5D188FEFD93EA9679FBA4768EE85ED /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419F87726B9568098939BF61A7D965CE /* BarView.swift */; };
+		416D0A72DA9CC74A401C9668E8D51DD3 /* PKLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 822B2CDE60FEB33285E2F9F7DEAB36D0 /* PKLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43A1B84FB52C1A01B0EA11B425EBED69 /* NSObject+PKBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 745826861391983A734B9D67C73E9751 /* NSObject+PKBlocks.m */; };
+		4BCFADD30E7543AD2669CE0FBDB97BA6 /* UIViewController+PKRevealController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FD80391D51B3B3F0FC8EE7FEB78761 /* UIViewController+PKRevealController.m */; };
+		4CA5F664B288C59F8FD8A2B4233CF276 /* UIViewController+PKRevealController.h in Headers */ = {isa = PBXBuildFile; fileRef = 34A3A647516C4B57F5DF4E67231929A8 /* UIViewController+PKRevealController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		521C8D7AFD6C67670B0CEB84860A7A56 /* Pods-CardView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9E4B08D6745470436412C3AEAADC13 /* Pods-CardView-dummy.m */; };
+		56EE3EB45099027986DA386B3A03D75A /* XLPagerTabStrip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6B5CA6F4F5ED8743357D8AF7C7E149 /* XLPagerTabStrip-dummy.m */; };
+		60F2FC3065729A4D334F2B4B7268F8D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */; };
+		612D6F7CFC5493732771000DCFED1C06 /* ButtonCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 55BCE44437022BC076C7FDA48B4B2A93 /* ButtonCell.xib */; };
+		617B7AAB1309E322E5296F3D8B62D614 /* PKRevealControllerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 868F7884BF458D50443E8E3617DD16DE /* PKRevealControllerView.m */; };
+		6C5B84143D78F3AE63FC660AEF28837B /* XLPagerTabStrip.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FD191C2DA40E6A64DA7593F34186BB87 /* XLPagerTabStrip.bundle */; };
+		6C7277823DC7BA6EC4A0DD6CCAF62CB6 /* ButtonBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AB2C32F91DD9C85F4EE775FAE97CB9 /* ButtonBarView.swift */; };
+		6E9431A9BFC7BD576E33EDE0592AB760 /* PKRevealController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A4DE5794CA4C54E741CD88B6149397 /* PKRevealController.m */; };
+		7346AFE2ADF807B274D8032DD22A1944 /* NSObject+PKBlocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 1885816AE39F5960A305C1E32A125E97 /* NSObject+PKBlocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D67145B586704DA45F85253B28A8769 /* PKLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA9D6684FEA047F03941255BD2A0EDA /* PKLog.m */; };
+		7E63A419697566705D261E76E5A7F83C /* PKLayerAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = C86FAAA0FD5548223BD5FCCEEEF05516 /* PKLayerAnimator.m */; };
+		82AC15A18BEEBE13F046C2C4D8FCE9F2 /* CALayer+PKConvenienceAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FBE4BCED42CB2F0B936FFB053D6885A /* CALayer+PKConvenienceAnimations.m */; };
+		82EE8238A057F98EBA920103797491A8 /* PKSequentialAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 45BC98AEEE221AE77C71BA9EFD6EA8F6 /* PKSequentialAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8678150AF78626A5891012D8533978F1 /* PKRevealController.h in Headers */ = {isa = PBXBuildFile; fileRef = A1BC73E3988E8B53547EBBF2A7D5A69F /* PKRevealController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87E2EA4886855404E8AA906281A47936 /* PKRevealController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E70666400C809BC7C5E3A4E0D8CD1C0 /* PKRevealController-dummy.m */; };
+		8C16D4A71206DDE516D7DBA771B31717 /* IndicatorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A45B667F66841B3A2A0F498CA43B8F /* IndicatorInfo.swift */; };
+		90D1D6619AB83971AD0FF11225FC277C /* PKAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = D2948C33FDFF163B84DB9BDA4812936A /* PKAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93959D14EB4C406D44D10B8555A2B3F3 /* PKRevealController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0718D417D1E115F7D43BA3755CF1EE21 /* PKRevealController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9478F12E19EBD7E66211802BE635BB45 /* PKAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E838A8DDCFA6F5884830CE482499D2 /* PKAnimation.m */; };
+		954BD1F4A489233347AEC30BD44E1393 /* SegmentedPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83270E5B3366A58F8C5B0F2B54776D8 /* SegmentedPagerTabStripViewController.swift */; };
+		AFCA26B4F4D5D8F086C2E8F2315609B1 /* PagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D412530531D17C5C31024F94086DFB /* PagerTabStripViewController.swift */; };
+		B13E907566BEE4F1F189F9CC4D913096 /* PKSequentialAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1C27955465197D845D5E34686D63BF /* PKSequentialAnimation.m */; };
+		B446E6D5E5CC1B1CF1985FF88E3F62EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */; };
+		CBF48F18B3D4E47F8C814646A6645D9F /* PKLayerAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 405DA95DC2DA0908F23B6FA7EDE67421 /* PKLayerAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF049A602954FDD1320BB840FD0614C4 /* TwitterPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708FCE51F59630FAA25D799ADA63A2A4 /* TwitterPagerTabStripViewController.swift */; };
+		D44C87BE0EFAF5956BFD823C54719846 /* BaseButtonBarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A8FA6AC17DF78F459597531B021475 /* BaseButtonBarPagerTabStripViewController.swift */; };
+		E46BCAF97EB78422360B3E64E82C38AF /* PKRevealControllerView.h in Headers */ = {isa = PBXBuildFile; fileRef = BDE327CACD126209B59DB9D87C306499 /* PKRevealControllerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9929AE72D5ED895B99F51FD099E598F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091D54A73E1E8BB182C9D7D245AF1C2F /* UIKit.framework */; };
+		EFF681ADF5C355E22EF3A0A6496DEC02 /* CAAnimation+PKIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = D26D3BE5C14FA22FEE8B51EFDD8CDCA4 /* CAAnimation+PKIdentifier.m */; };
+		F0C5FA12F196D72E09404C46D387E02F /* XLPagerTabStrip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 792F2092E2A23C7B90AE4029D186EC54 /* XLPagerTabStrip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F160361A2CE28E3EB4EAC3A2B11AF507 /* ButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55BCE44437022BC076C7FDA48B4B2A93 /* ButtonCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0EF8B4A4EAAA30F070A6E7E3C781C782 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 792FABCF0C18A6A70C14189BA6FABBA6;
+			remoteInfo = "XLPagerTabStrip-XLPagerTabStrip";
+		};
+		D5CA67E548779BF7EA190DE23E544D84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBF452D9313EF913EA92AD5D72258A8E;
+			remoteInfo = PKRevealController;
+		};
+		FAAFD1B2D15ED385EFD562215A36208C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E01CD4C492788E5DA074F8A2AA30274;
+			remoteInfo = XLPagerTabStrip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0718D417D1E115F7D43BA3755CF1EE21 /* PKRevealController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PKRevealController-umbrella.h"; sourceTree = "<group>"; };
+		083A4DC027B5E8470210134203897CF8 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		091D54A73E1E8BB182C9D7D245AF1C2F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		095D1CAC454EA6AA6ECE8C106CA3AB97 /* PagerTabStripBehaviour.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripBehaviour.swift; path = Sources/PagerTabStripBehaviour.swift; sourceTree = "<group>"; };
+		0C5BDF62B78410A884562443BFFA4507 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Headers/Public/FIRInstanceID.h; sourceTree = "<group>"; };
+		0E7F79826092DEAC3B773D6E7827F1A0 /* Pods-CardView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CardView.release.xcconfig"; sourceTree = "<group>"; };
+		0F6B5CA6F4F5ED8743357D8AF7C7E149 /* XLPagerTabStrip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XLPagerTabStrip-dummy.m"; sourceTree = "<group>"; };
+		0FBE4BCED42CB2F0B936FFB053D6885A /* CALayer+PKConvenienceAnimations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+PKConvenienceAnimations.m"; path = "Source/PKRevealController/Categories/CALayer+PKConvenienceAnimations.m"; sourceTree = "<group>"; };
+		14A4DE5794CA4C54E741CD88B6149397 /* PKRevealController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PKRevealController.m; path = Source/PKRevealController/PKRevealController.m; sourceTree = "<group>"; };
+		187943E4A2D44C5CB01BA7777998912C /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		1885816AE39F5960A305C1E32A125E97 /* NSObject+PKBlocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+PKBlocks.h"; path = "Source/PKRevealController/Categories/NSObject+PKBlocks.h"; sourceTree = "<group>"; };
+		18AC0DEBEE62545142CA0FCF8BEE9173 /* PKRevealController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PKRevealController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DB19513E6F4BCB1B2B0072205408FD6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DEDD73158285BB1C33D663D7B33232A /* PagerTabStripError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripError.swift; path = Sources/PagerTabStripError.swift; sourceTree = "<group>"; };
+		1FF36EC74E19E91530B33B5A8B8B8BC3 /* Pods-CardView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CardView-acknowledgements.markdown"; sourceTree = "<group>"; };
+		23016F69B2480F44D0BB5526B39192FA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		260E5CF63ECBACF8891CB7ED3C1E66B6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27A45B667F66841B3A2A0F498CA43B8F /* IndicatorInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IndicatorInfo.swift; path = Sources/IndicatorInfo.swift; sourceTree = "<group>"; };
+		2B1C27955465197D845D5E34686D63BF /* PKSequentialAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PKSequentialAnimation.m; path = Source/PKRevealController/Modules/PKLayerAnimator/PKSequentialAnimation.m; sourceTree = "<group>"; };
+		34A3A647516C4B57F5DF4E67231929A8 /* UIViewController+PKRevealController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+PKRevealController.h"; path = "Source/PKRevealController/Categories/UIViewController+PKRevealController.h"; sourceTree = "<group>"; };
+		3BE7D7D62EA4B4B744917FFAB6CCF518 /* XLPagerTabStrip.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XLPagerTabStrip.xcconfig; sourceTree = "<group>"; };
+		3E70666400C809BC7C5E3A4E0D8CD1C0 /* PKRevealController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PKRevealController-dummy.m"; sourceTree = "<group>"; };
+		405DA95DC2DA0908F23B6FA7EDE67421 /* PKLayerAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PKLayerAnimator.h; path = Source/PKRevealController/Modules/PKLayerAnimator/PKLayerAnimator.h; sourceTree = "<group>"; };
+		419F87726B9568098939BF61A7D965CE /* BarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarView.swift; path = Sources/BarView.swift; sourceTree = "<group>"; };
+		45BC98AEEE221AE77C71BA9EFD6EA8F6 /* PKSequentialAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PKSequentialAnimation.h; path = Source/PKRevealController/Modules/PKLayerAnimator/PKSequentialAnimation.h; sourceTree = "<group>"; };
+		45CC07D8D930FBC025008E0E89D91DDF /* Pods-CardView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CardView.modulemap"; sourceTree = "<group>"; };
+		48937C77CF59A07A3550173C03E76FF3 /* Pods-CardView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CardView-umbrella.h"; sourceTree = "<group>"; };
+		49E020309AFBA88C041D1BE815305821 /* BarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarPagerTabStripViewController.swift; path = Sources/BarPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		4FA144FEF54058D5432D7121247E3578 /* PKRevealController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PKRevealController.xcconfig; sourceTree = "<group>"; };
+		51FE024DAFB02848EA95D7E860B93B27 /* CALayer+PKConvenienceAnimations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+PKConvenienceAnimations.h"; path = "Source/PKRevealController/Categories/CALayer+PKConvenienceAnimations.h"; sourceTree = "<group>"; };
+		53D412530531D17C5C31024F94086DFB /* PagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripViewController.swift; path = Sources/PagerTabStripViewController.swift; sourceTree = "<group>"; };
+		55BCE44437022BC076C7FDA48B4B2A93 /* ButtonCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ButtonCell.xib; path = Sources/ButtonCell.xib; sourceTree = "<group>"; };
+		59919A9528DE1EB1F78E82A5CEB20CEC /* CAAnimation+PKIdentifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CAAnimation+PKIdentifier.h"; path = "Source/PKRevealController/Categories/CAAnimation+PKIdentifier.h"; sourceTree = "<group>"; };
+		5BA9D6684FEA047F03941255BD2A0EDA /* PKLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PKLog.m; path = Source/PKRevealController/Modules/PKLog/PKLog.m; sourceTree = "<group>"; };
+		5C68C597937FEB52A9AA168295B7B969 /* Pods-CardView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CardView-frameworks.sh"; sourceTree = "<group>"; };
+		63AB2C32F91DD9C85F4EE775FAE97CB9 /* ButtonBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarView.swift; path = Sources/ButtonBarView.swift; sourceTree = "<group>"; };
+		63F4D46F8E04A0EC2D99B085E4C2E68A /* PKRevealController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PKRevealController-prefix.pch"; sourceTree = "<group>"; };
+		64EBA440A40E2F65E7E8EF28ACD66342 /* PKAnimating.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PKAnimating.h; path = Source/PKRevealController/Modules/PKLayerAnimator/PKAnimating.h; sourceTree = "<group>"; };
+		697BB15312CBBA08BD7533F763C31C00 /* PKRevealController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PKRevealController.modulemap; sourceTree = "<group>"; };
+		6E9E4B08D6745470436412C3AEAADC13 /* Pods-CardView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CardView-dummy.m"; sourceTree = "<group>"; };
+		708FCE51F59630FAA25D799ADA63A2A4 /* TwitterPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TwitterPagerTabStripViewController.swift; path = Sources/TwitterPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		745826861391983A734B9D67C73E9751 /* NSObject+PKBlocks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+PKBlocks.m"; path = "Source/PKRevealController/Categories/NSObject+PKBlocks.m"; sourceTree = "<group>"; };
+		792F2092E2A23C7B90AE4029D186EC54 /* XLPagerTabStrip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLPagerTabStrip-umbrella.h"; sourceTree = "<group>"; };
+		79A8FA6AC17DF78F459597531B021475 /* BaseButtonBarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseButtonBarPagerTabStripViewController.swift; path = Sources/BaseButtonBarPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		79FD80391D51B3B3F0FC8EE7FEB78761 /* UIViewController+PKRevealController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+PKRevealController.m"; path = "Source/PKRevealController/Categories/UIViewController+PKRevealController.m"; sourceTree = "<group>"; };
+		7BC42FE1B9030F94605C2C5C81AB98DA /* Pods_CardView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CardView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C7634D8C5F790987F6A7546E7FCEC5E /* Pods-CardView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CardView-resources.sh"; sourceTree = "<group>"; };
+		7C976FDB5D814DBB4593B0319F399D11 /* XLPagerTabStrip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = XLPagerTabStrip.modulemap; sourceTree = "<group>"; };
+		7DEDF134102AEFEC0ACE3BA75BE77C0C /* Pods-CardView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CardView-acknowledgements.plist"; sourceTree = "<group>"; };
+		822B2CDE60FEB33285E2F9F7DEAB36D0 /* PKLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PKLog.h; path = Source/PKRevealController/Modules/PKLog/PKLog.h; sourceTree = "<group>"; };
+		868F7884BF458D50443E8E3617DD16DE /* PKRevealControllerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PKRevealControllerView.m; path = Source/PKRevealController/Classes/PKRevealControllerView.m; sourceTree = "<group>"; };
+		8A75C95D2C2D6E79B4E7D03BD8151507 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		8DB4FE98C28C6F3E85B2ECD9193FF31B /* Pods-CardView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CardView.debug.xcconfig"; sourceTree = "<group>"; };
+		9119A82CDDBC5C218395D6A0AA74CB92 /* XLPagerTabStrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XLPagerTabStrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92BFE477E402C9286D7B83EEA019924A /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseStorage.framework; path = Frameworks/FirebaseStorage.framework; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95E838A8DDCFA6F5884830CE482499D2 /* PKAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PKAnimation.m; path = Source/PKRevealController/Modules/PKLayerAnimator/PKAnimation.m; sourceTree = "<group>"; };
+		A191036B1324B3DD16694B9FEEAC5DE9 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		A1BC73E3988E8B53547EBBF2A7D5A69F /* PKRevealController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PKRevealController.h; path = Source/PKRevealController/PKRevealController.h; sourceTree = "<group>"; };
+		A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		AAA5CE3DD1079CCBDD53C89821EA4069 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B738BF46622710C19EED070D7E100870 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		B83270E5B3366A58F8C5B0F2B54776D8 /* SegmentedPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentedPagerTabStripViewController.swift; path = Sources/SegmentedPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		B83DE168E14FD114AEAC45D994738E25 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		B93906CE07855172CE8D11AC6780130B /* ResourceBundle-XLPagerTabStrip-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-XLPagerTabStrip-Info.plist"; sourceTree = "<group>"; };
+		BDE327CACD126209B59DB9D87C306499 /* PKRevealControllerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PKRevealControllerView.h; path = Source/PKRevealController/Classes/PKRevealControllerView.h; sourceTree = "<group>"; };
+		C03D1E7564824F5A0C763415C0AF9CFB /* ButtonBarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarPagerTabStripViewController.swift; path = Sources/ButtonBarPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		C86FAAA0FD5548223BD5FCCEEEF05516 /* PKLayerAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PKLayerAnimator.m; path = Source/PKRevealController/Modules/PKLayerAnimator/PKLayerAnimator.m; sourceTree = "<group>"; };
+		C8AA4CF2CDCFEF465464BB49BAAAAC78 /* FXPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FXPageControl.h; path = Sources/FXPageControl.h; sourceTree = "<group>"; };
+		CA0CE5FFF7B692D43E1AD0F19C78681C /* SwipeDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeDirection.swift; path = Sources/SwipeDirection.swift; sourceTree = "<group>"; };
+		CA4882C4998CA17556CA22C879E613BB /* ButtonBarViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarViewCell.swift; path = Sources/ButtonBarViewCell.swift; sourceTree = "<group>"; };
+		D26D3BE5C14FA22FEE8B51EFDD8CDCA4 /* CAAnimation+PKIdentifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CAAnimation+PKIdentifier.m"; path = "Source/PKRevealController/Categories/CAAnimation+PKIdentifier.m"; sourceTree = "<group>"; };
+		D2948C33FDFF163B84DB9BDA4812936A /* PKAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PKAnimation.h; path = Source/PKRevealController/Modules/PKLayerAnimator/PKAnimation.h; sourceTree = "<group>"; };
+		DB49FBA5CFBA50DF77220E88234ADEBF /* XLPagerTabStrip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLPagerTabStrip-prefix.pch"; sourceTree = "<group>"; };
+		F50E9B0AE560762806376241E97E9FD8 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		F5C866D466FC45A0B6D44B07708C88AB /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Headers/Firebase.h; sourceTree = "<group>"; };
+		FD191C2DA40E6A64DA7593F34186BB87 /* XLPagerTabStrip.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLPagerTabStrip.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD3FE1C52238D73EF135823770F4A795 /* FXPageControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FXPageControl.m; path = Sources/FXPageControl.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		295B2D356A53296CE73BC16698793249 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60F2FC3065729A4D334F2B4B7268F8D8 /* Foundation.framework in Frameworks */,
+				E9929AE72D5ED895B99F51FD099E598F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94691CEABF8E434BBFBC18D9FEE97570 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B446E6D5E5CC1B1CF1985FF88E3F62EB /* Foundation.framework in Frameworks */,
+				2B75C6FBDA841C12DF0B1372396E61DE /* QuartzCore.framework in Frameworks */,
+				07E636373546F8C93CEF55C1D2BE6EBA /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5ABB75D774CF11C13BDCB78AA36AEC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2D3EB9A032EDEC0309A79817FF78D6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2DADA920ACAA4C04FB0ECA3B0763042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		098D571D9F209675DF6C0A37B3AD473E /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				7AD3BB6FFFCF343054B91839A8B2F193 /* Frameworks */,
+			);
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFDE779C6E5D3445E0CB8CCB8D424449 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A9244DD93E73243EA2746E3B5C98B96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18AC0DEBEE62545142CA0FCF8BEE9173 /* PKRevealController.framework */,
+				7BC42FE1B9030F94605C2C5C81AB98DA /* Pods_CardView.framework */,
+				FD191C2DA40E6A64DA7593F34186BB87 /* XLPagerTabStrip.bundle */,
+				9119A82CDDBC5C218395D6A0AA74CB92 /* XLPagerTabStrip.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45A7FB1082FAD8EE2A026D905F969642 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F50E9B0AE560762806376241E97E9FD8 /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		497AECBF97445597B8494033E8BC9C39 /* XLPagerTabStrip */ = {
+			isa = PBXGroup;
+			children = (
+				49E020309AFBA88C041D1BE815305821 /* BarPagerTabStripViewController.swift */,
+				419F87726B9568098939BF61A7D965CE /* BarView.swift */,
+				79A8FA6AC17DF78F459597531B021475 /* BaseButtonBarPagerTabStripViewController.swift */,
+				C03D1E7564824F5A0C763415C0AF9CFB /* ButtonBarPagerTabStripViewController.swift */,
+				63AB2C32F91DD9C85F4EE775FAE97CB9 /* ButtonBarView.swift */,
+				CA4882C4998CA17556CA22C879E613BB /* ButtonBarViewCell.swift */,
+				55BCE44437022BC076C7FDA48B4B2A93 /* ButtonCell.xib */,
+				C8AA4CF2CDCFEF465464BB49BAAAAC78 /* FXPageControl.h */,
+				FD3FE1C52238D73EF135823770F4A795 /* FXPageControl.m */,
+				27A45B667F66841B3A2A0F498CA43B8F /* IndicatorInfo.swift */,
+				095D1CAC454EA6AA6ECE8C106CA3AB97 /* PagerTabStripBehaviour.swift */,
+				1DEDD73158285BB1C33D663D7B33232A /* PagerTabStripError.swift */,
+				53D412530531D17C5C31024F94086DFB /* PagerTabStripViewController.swift */,
+				B83270E5B3366A58F8C5B0F2B54776D8 /* SegmentedPagerTabStripViewController.swift */,
+				CA0CE5FFF7B692D43E1AD0F19C78681C /* SwipeDirection.swift */,
+				708FCE51F59630FAA25D799ADA63A2A4 /* TwitterPagerTabStripViewController.swift */,
+				E6E3A63D989CDD54AFF1DE8F1DAF44E5 /* Resources */,
+				B64CAC7A911939FDB03531A8F9096983 /* Support Files */,
+			);
+			path = XLPagerTabStrip;
+			sourceTree = "<group>";
+		};
+		56E72D0DC12F5858B3860225CACE4DCD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4824883D9A0CF937B1D246F3C6ED0B0 /* Firebase */,
+				942C6B2F0B1CDA1DC128B46F4EB48AB3 /* FirebaseAnalytics */,
+				098D571D9F209675DF6C0A37B3AD473E /* FirebaseDatabase */,
+				D8E36F1203EEAE2F712EF7ABF9D62460 /* FirebaseInstanceID */,
+				C832731849A8FA31F9C2A757D7EE97B4 /* FirebaseStorage */,
+				B7F71E932836EFABF5ED07667DB54077 /* GoogleInterchangeUtilities */,
+				A0D9FC0A784A00343BC0CE620A11FB9F /* GoogleNetworkingUtilities */,
+				B9CE24C658668C391010856E39175E14 /* GoogleSymbolUtilities */,
+				F289D93CB28735E20C97F6425A948814 /* GoogleUtilities */,
+				5C8260B0BE1C0E355FAEDF15474D7A5F /* PKRevealController */,
+				497AECBF97445597B8494033E8BC9C39 /* XLPagerTabStrip */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		58D00C3FEA2FA0FFEAF34A1FF7F7E64B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A191036B1324B3DD16694B9FEEAC5DE9 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C8260B0BE1C0E355FAEDF15474D7A5F /* PKRevealController */ = {
+			isa = PBXGroup;
+			children = (
+				59919A9528DE1EB1F78E82A5CEB20CEC /* CAAnimation+PKIdentifier.h */,
+				D26D3BE5C14FA22FEE8B51EFDD8CDCA4 /* CAAnimation+PKIdentifier.m */,
+				51FE024DAFB02848EA95D7E860B93B27 /* CALayer+PKConvenienceAnimations.h */,
+				0FBE4BCED42CB2F0B936FFB053D6885A /* CALayer+PKConvenienceAnimations.m */,
+				1885816AE39F5960A305C1E32A125E97 /* NSObject+PKBlocks.h */,
+				745826861391983A734B9D67C73E9751 /* NSObject+PKBlocks.m */,
+				64EBA440A40E2F65E7E8EF28ACD66342 /* PKAnimating.h */,
+				D2948C33FDFF163B84DB9BDA4812936A /* PKAnimation.h */,
+				95E838A8DDCFA6F5884830CE482499D2 /* PKAnimation.m */,
+				405DA95DC2DA0908F23B6FA7EDE67421 /* PKLayerAnimator.h */,
+				C86FAAA0FD5548223BD5FCCEEEF05516 /* PKLayerAnimator.m */,
+				822B2CDE60FEB33285E2F9F7DEAB36D0 /* PKLog.h */,
+				5BA9D6684FEA047F03941255BD2A0EDA /* PKLog.m */,
+				A1BC73E3988E8B53547EBBF2A7D5A69F /* PKRevealController.h */,
+				14A4DE5794CA4C54E741CD88B6149397 /* PKRevealController.m */,
+				BDE327CACD126209B59DB9D87C306499 /* PKRevealControllerView.h */,
+				868F7884BF458D50443E8E3617DD16DE /* PKRevealControllerView.m */,
+				45BC98AEEE221AE77C71BA9EFD6EA8F6 /* PKSequentialAnimation.h */,
+				2B1C27955465197D845D5E34686D63BF /* PKSequentialAnimation.m */,
+				34A3A647516C4B57F5DF4E67231929A8 /* UIViewController+PKRevealController.h */,
+				79FD80391D51B3B3F0FC8EE7FEB78761 /* UIViewController+PKRevealController.m */,
+				73DD3E9E7D5336660D82C862970B5FE7 /* Support Files */,
+			);
+			path = PKRevealController;
+			sourceTree = "<group>";
+		};
+		73DD3E9E7D5336660D82C862970B5FE7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				260E5CF63ECBACF8891CB7ED3C1E66B6 /* Info.plist */,
+				697BB15312CBBA08BD7533F763C31C00 /* PKRevealController.modulemap */,
+				4FA144FEF54058D5432D7121247E3578 /* PKRevealController.xcconfig */,
+				3E70666400C809BC7C5E3A4E0D8CD1C0 /* PKRevealController-dummy.m */,
+				63F4D46F8E04A0EC2D99B085E4C2E68A /* PKRevealController-prefix.pch */,
+				0718D417D1E115F7D43BA3755CF1EE21 /* PKRevealController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PKRevealController";
+			sourceTree = "<group>";
+		};
+		74A0B64692A15D22F051C66B834F356A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92BFE477E402C9286D7B83EEA019924A /* FirebaseStorage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7AD3BB6FFFCF343054B91839A8B2F193 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B83DE168E14FD114AEAC45D994738E25 /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				56E72D0DC12F5858B3860225CACE4DCD /* Pods */,
+				3A9244DD93E73243EA2746E3B5C98B96 /* Products */,
+				87DDE785957C87EF5708973464E29518 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		87DDE785957C87EF5708973464E29518 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD46FD18EDD869441C352CADBB7B4BDD /* Pods-CardView */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		942C6B2F0B1CDA1DC128B46F4EB48AB3 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				E1DA04C89763E41B988A6F8925973BAF /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		97A4E496FC8FCD84A4C10F3769AB7336 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				187943E4A2D44C5CB01BA7777998912C /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0D9FC0A784A00343BC0CE620A11FB9F /* GoogleNetworkingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				B304E4AFAB476BDB8D7634AFCCA8B440 /* Frameworks */,
+			);
+			path = GoogleNetworkingUtilities;
+			sourceTree = "<group>";
+		};
+		AD46FD18EDD869441C352CADBB7B4BDD /* Pods-CardView */ = {
+			isa = PBXGroup;
+			children = (
+				AAA5CE3DD1079CCBDD53C89821EA4069 /* Info.plist */,
+				45CC07D8D930FBC025008E0E89D91DDF /* Pods-CardView.modulemap */,
+				1FF36EC74E19E91530B33B5A8B8B8BC3 /* Pods-CardView-acknowledgements.markdown */,
+				7DEDF134102AEFEC0ACE3BA75BE77C0C /* Pods-CardView-acknowledgements.plist */,
+				6E9E4B08D6745470436412C3AEAADC13 /* Pods-CardView-dummy.m */,
+				5C68C597937FEB52A9AA168295B7B969 /* Pods-CardView-frameworks.sh */,
+				7C7634D8C5F790987F6A7546E7FCEC5E /* Pods-CardView-resources.sh */,
+				48937C77CF59A07A3550173C03E76FF3 /* Pods-CardView-umbrella.h */,
+				8DB4FE98C28C6F3E85B2ECD9193FF31B /* Pods-CardView.debug.xcconfig */,
+				0E7F79826092DEAC3B773D6E7827F1A0 /* Pods-CardView.release.xcconfig */,
+			);
+			name = "Pods-CardView";
+			path = "Target Support Files/Pods-CardView";
+			sourceTree = "<group>";
+		};
+		B304E4AFAB476BDB8D7634AFCCA8B440 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A75C95D2C2D6E79B4E7D03BD8151507 /* GoogleNetworkingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B64CAC7A911939FDB03531A8F9096983 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DB19513E6F4BCB1B2B0072205408FD6 /* Info.plist */,
+				B93906CE07855172CE8D11AC6780130B /* ResourceBundle-XLPagerTabStrip-Info.plist */,
+				7C976FDB5D814DBB4593B0319F399D11 /* XLPagerTabStrip.modulemap */,
+				3BE7D7D62EA4B4B744917FFAB6CCF518 /* XLPagerTabStrip.xcconfig */,
+				0F6B5CA6F4F5ED8743357D8AF7C7E149 /* XLPagerTabStrip-dummy.m */,
+				DB49FBA5CFBA50DF77220E88234ADEBF /* XLPagerTabStrip-prefix.pch */,
+				792F2092E2A23C7B90AE4029D186EC54 /* XLPagerTabStrip-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XLPagerTabStrip";
+			sourceTree = "<group>";
+		};
+		B7F71E932836EFABF5ED07667DB54077 /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				58D00C3FEA2FA0FFEAF34A1FF7F7E64B /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		B9CE24C658668C391010856E39175E14 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				97A4E496FC8FCD84A4C10F3769AB7336 /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		C6BEFC38A2B54F44FD8E3CDABA46463B /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				F5C866D466FC45A0B6D44B07708C88AB /* Firebase.h */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		C832731849A8FA31F9C2A757D7EE97B4 /* FirebaseStorage */ = {
+			isa = PBXGroup;
+			children = (
+				74A0B64692A15D22F051C66B834F356A /* Frameworks */,
+			);
+			path = FirebaseStorage;
+			sourceTree = "<group>";
+		};
+		D8E36F1203EEAE2F712EF7ABF9D62460 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				0C5BDF62B78410A884562443BFFA4507 /* FIRInstanceID.h */,
+				F9853FB71381611116ABC76E13F83D6E /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		DFDE779C6E5D3445E0CB8CCB8D424449 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */,
+				23016F69B2480F44D0BB5526B39192FA /* QuartzCore.framework */,
+				091D54A73E1E8BB182C9D7D245AF1C2F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E1DA04C89763E41B988A6F8925973BAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				083A4DC027B5E8470210134203897CF8 /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6E3A63D989CDD54AFF1DE8F1DAF44E5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F289D93CB28735E20C97F6425A948814 /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				45A7FB1082FAD8EE2A026D905F969642 /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		F4824883D9A0CF937B1D246F3C6ED0B0 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				C6BEFC38A2B54F44FD8E3CDABA46463B /* Analytics */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		F9853FB71381611116ABC76E13F83D6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B738BF46622710C19EED070D7E100870 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8652739BAACED67CD13574C9A3C4E1A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1137ACB107DB5624EE8108210F0E1D39 /* FXPageControl.h in Headers */,
+				F0C5FA12F196D72E09404C46D387E02F /* XLPagerTabStrip-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEA9672070380F7DF29B3AC68EB45EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FCBC286E71EE556C6284B92A9640907 /* Pods-CardView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C56C879B3333F95A217C9234361AF6B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A26880EE73AD208DE059BEE5A1E9F3A /* CAAnimation+PKIdentifier.h in Headers */,
+				28BA9576237D42BCBC712DD192B91963 /* CALayer+PKConvenienceAnimations.h in Headers */,
+				7346AFE2ADF807B274D8032DD22A1944 /* NSObject+PKBlocks.h in Headers */,
+				0465E1EDE1ADED2F887A3AC0909F2D85 /* PKAnimating.h in Headers */,
+				90D1D6619AB83971AD0FF11225FC277C /* PKAnimation.h in Headers */,
+				CBF48F18B3D4E47F8C814646A6645D9F /* PKLayerAnimator.h in Headers */,
+				416D0A72DA9CC74A401C9668E8D51DD3 /* PKLog.h in Headers */,
+				93959D14EB4C406D44D10B8555A2B3F3 /* PKRevealController-umbrella.h in Headers */,
+				8678150AF78626A5891012D8533978F1 /* PKRevealController.h in Headers */,
+				E46BCAF97EB78422360B3E64E82C38AF /* PKRevealControllerView.h in Headers */,
+				82EE8238A057F98EBA920103797491A8 /* PKSequentialAnimation.h in Headers */,
+				4CA5F664B288C59F8FD8A2B4233CF276 /* UIViewController+PKRevealController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		07307244469618CF786789AEC1D7B674 /* Pods-CardView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 252D45661C8B8D6CDDFC17EF5D4A29E5 /* Build configuration list for PBXNativeTarget "Pods-CardView" */;
+			buildPhases = (
+				DB322CCDE4A2E1C76080222CBB071562 /* Sources */,
+				A5ABB75D774CF11C13BDCB78AA36AEC5 /* Frameworks */,
+				ADEA9672070380F7DF29B3AC68EB45EE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C7498C1EFA587318C7F7120B3238CE7 /* PBXTargetDependency */,
+				C2479CB263C4764941863EAB459F937C /* PBXTargetDependency */,
+			);
+			name = "Pods-CardView";
+			productName = "Pods-CardView";
+			productReference = 7BC42FE1B9030F94605C2C5C81AB98DA /* Pods_CardView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		792FABCF0C18A6A70C14189BA6FABBA6 /* XLPagerTabStrip-XLPagerTabStrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF33BF75A42C0CEE9B3B7B1FB8624A33 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip-XLPagerTabStrip" */;
+			buildPhases = (
+				AB73461FBECD63BDEFBA822ED78F73B5 /* Sources */,
+				D2DADA920ACAA4C04FB0ECA3B0763042 /* Frameworks */,
+				92A11B7B3B1C37ABF2E5D0DC804B2445 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XLPagerTabStrip-XLPagerTabStrip";
+			productName = "XLPagerTabStrip-XLPagerTabStrip";
+			productReference = FD191C2DA40E6A64DA7593F34186BB87 /* XLPagerTabStrip.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		9E01CD4C492788E5DA074F8A2AA30274 /* XLPagerTabStrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EF536E290CB073FB224945799AB8746 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip" */;
+			buildPhases = (
+				2BDD76FB25917F8718225D901AFED757 /* Sources */,
+				295B2D356A53296CE73BC16698793249 /* Frameworks */,
+				11F6F687D348178D9528C79433673285 /* Resources */,
+				8652739BAACED67CD13574C9A3C4E1A9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF390BD4F4110AE9738699CDBAF99E80 /* PBXTargetDependency */,
+			);
+			name = XLPagerTabStrip;
+			productName = XLPagerTabStrip;
+			productReference = 9119A82CDDBC5C218395D6A0AA74CB92 /* XLPagerTabStrip.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FBF452D9313EF913EA92AD5D72258A8E /* PKRevealController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F56AA137CF94DA5FE40B2EEF8C088A71 /* Build configuration list for PBXNativeTarget "PKRevealController" */;
+			buildPhases = (
+				DBF282BD2DE9AF55D087536035CFC38E /* Sources */,
+				94691CEABF8E434BBFBC18D9FEE97570 /* Frameworks */,
+				C56C879B3333F95A217C9234361AF6B1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PKRevealController;
+			productName = PKRevealController;
+			productReference = 18AC0DEBEE62545142CA0FCF8BEE9173 /* PKRevealController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3A9244DD93E73243EA2746E3B5C98B96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBF452D9313EF913EA92AD5D72258A8E /* PKRevealController */,
+				07307244469618CF786789AEC1D7B674 /* Pods-CardView */,
+				9E01CD4C492788E5DA074F8A2AA30274 /* XLPagerTabStrip */,
+				792FABCF0C18A6A70C14189BA6FABBA6 /* XLPagerTabStrip-XLPagerTabStrip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11F6F687D348178D9528C79433673285 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C5B84143D78F3AE63FC660AEF28837B /* XLPagerTabStrip.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A11B7B3B1C37ABF2E5D0DC804B2445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F160361A2CE28E3EB4EAC3A2B11AF507 /* ButtonCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BDD76FB25917F8718225D901AFED757 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2868EE473649395DE9D024CF5B1E8FE5 /* BarPagerTabStripViewController.swift in Sources */,
+				3F5D188FEFD93EA9679FBA4768EE85ED /* BarView.swift in Sources */,
+				D44C87BE0EFAF5956BFD823C54719846 /* BaseButtonBarPagerTabStripViewController.swift in Sources */,
+				303226E8F91388E4D15C24A2F8231972 /* ButtonBarPagerTabStripViewController.swift in Sources */,
+				6C7277823DC7BA6EC4A0DD6CCAF62CB6 /* ButtonBarView.swift in Sources */,
+				33DA7FEA9695FFA9EB2D53A98E092666 /* ButtonBarViewCell.swift in Sources */,
+				612D6F7CFC5493732771000DCFED1C06 /* ButtonCell.xib in Sources */,
+				1D881C8C40187152969C633014D9D160 /* FXPageControl.m in Sources */,
+				8C16D4A71206DDE516D7DBA771B31717 /* IndicatorInfo.swift in Sources */,
+				27C2AF9B3DAC877CC1EC6A7FD4AAD1BB /* PagerTabStripBehaviour.swift in Sources */,
+				296ED5CB8E219FBC1FBE2811E3309073 /* PagerTabStripError.swift in Sources */,
+				AFCA26B4F4D5D8F086C2E8F2315609B1 /* PagerTabStripViewController.swift in Sources */,
+				954BD1F4A489233347AEC30BD44E1393 /* SegmentedPagerTabStripViewController.swift in Sources */,
+				0BE3DE928A22D4BE2E23058F40E8D04D /* SwipeDirection.swift in Sources */,
+				CF049A602954FDD1320BB840FD0614C4 /* TwitterPagerTabStripViewController.swift in Sources */,
+				56EE3EB45099027986DA386B3A03D75A /* XLPagerTabStrip-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB73461FBECD63BDEFBA822ED78F73B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB322CCDE4A2E1C76080222CBB071562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521C8D7AFD6C67670B0CEB84860A7A56 /* Pods-CardView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF282BD2DE9AF55D087536035CFC38E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF681ADF5C355E22EF3A0A6496DEC02 /* CAAnimation+PKIdentifier.m in Sources */,
+				82AC15A18BEEBE13F046C2C4D8FCE9F2 /* CALayer+PKConvenienceAnimations.m in Sources */,
+				43A1B84FB52C1A01B0EA11B425EBED69 /* NSObject+PKBlocks.m in Sources */,
+				9478F12E19EBD7E66211802BE635BB45 /* PKAnimation.m in Sources */,
+				7E63A419697566705D261E76E5A7F83C /* PKLayerAnimator.m in Sources */,
+				7D67145B586704DA45F85253B28A8769 /* PKLog.m in Sources */,
+				87E2EA4886855404E8AA906281A47936 /* PKRevealController-dummy.m in Sources */,
+				6E9431A9BFC7BD576E33EDE0592AB760 /* PKRevealController.m in Sources */,
+				617B7AAB1309E322E5296F3D8B62D614 /* PKRevealControllerView.m in Sources */,
+				B13E907566BEE4F1F189F9CC4D913096 /* PKSequentialAnimation.m in Sources */,
+				4BCFADD30E7543AD2669CE0FBDB97BA6 /* UIViewController+PKRevealController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C7498C1EFA587318C7F7120B3238CE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PKRevealController;
+			target = FBF452D9313EF913EA92AD5D72258A8E /* PKRevealController */;
+			targetProxy = D5CA67E548779BF7EA190DE23E544D84 /* PBXContainerItemProxy */;
+		};
+		BF390BD4F4110AE9738699CDBAF99E80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "XLPagerTabStrip-XLPagerTabStrip";
+			target = 792FABCF0C18A6A70C14189BA6FABBA6 /* XLPagerTabStrip-XLPagerTabStrip */;
+			targetProxy = 0EF8B4A4EAAA30F070A6E7E3C781C782 /* PBXContainerItemProxy */;
+		};
+		C2479CB263C4764941863EAB459F937C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XLPagerTabStrip;
+			target = 9E01CD4C492788E5DA074F8A2AA30274 /* XLPagerTabStrip */;
+			targetProxy = FAAFD1B2D15ED385EFD562215A36208C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06E3F648CB6CBD2A84E55D114D1ACF7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BE7D7D62EA4B4B744917FFAB6CCF518 /* XLPagerTabStrip.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		17AA694665100959BE3E1BC7692DB42C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BE7D7D62EA4B4B744917FFAB6CCF518 /* XLPagerTabStrip.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XLPagerTabStrip";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/ResourceBundle-XLPagerTabStrip-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44046905983A95DF1F0161AB6667D23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BE7D7D62EA4B4B744917FFAB6CCF518 /* XLPagerTabStrip.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XLPagerTabStrip";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/ResourceBundle-XLPagerTabStrip-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		5108DF5A94BEDA0BBE2D544244C80D40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E7F79826092DEAC3B773D6E7827F1A0 /* Pods-CardView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CardView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CardView/Pods-CardView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CardView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7F6216F6FDEDE713C16E37481C0FB991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DB4FE98C28C6F3E85B2ECD9193FF31B /* Pods-CardView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CardView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CardView/Pods-CardView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CardView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B1801FF2F4360520283074C9E77CE6B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FA144FEF54058D5432D7121247E3578 /* PKRevealController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PKRevealController/PKRevealController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PKRevealController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PKRevealController/PKRevealController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PKRevealController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D41BCBFD43909F2B3C4067BE795F3514 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BE7D7D62EA4B4B744917FFAB6CCF518 /* XLPagerTabStrip.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DAB90B1A993EEF62DBBAECB120C99085 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FA144FEF54058D5432D7121247E3578 /* PKRevealController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PKRevealController/PKRevealController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PKRevealController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PKRevealController/PKRevealController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PKRevealController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EF536E290CB073FB224945799AB8746 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06E3F648CB6CBD2A84E55D114D1ACF7A /* Debug */,
+				D41BCBFD43909F2B3C4067BE795F3514 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		252D45661C8B8D6CDDFC17EF5D4A29E5 /* Build configuration list for PBXNativeTarget "Pods-CardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F6216F6FDEDE713C16E37481C0FB991 /* Debug */,
+				5108DF5A94BEDA0BBE2D544244C80D40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF33BF75A42C0CEE9B3B7B1FB8624A33 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip-XLPagerTabStrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17AA694665100959BE3E1BC7692DB42C /* Debug */,
+				44046905983A95DF1F0161AB6667D23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F56AA137CF94DA5FE40B2EEF8C088A71 /* Build configuration list for PBXNativeTarget "PKRevealController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB90B1A993EEF62DBBAECB120C99085 /* Debug */,
+				B1801FF2F4360520283074C9E77CE6B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
