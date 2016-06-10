@@ -10,6 +10,11 @@ import UIKit
 import Firebase
 import FirebaseDatabase
 
+protocol HideNavBarDelegate: class {
+    func hideBar(controller: ViewController)
+    func unhideBar(controller: ViewController)
+}
+
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     // set up the array for the rows
     var episodes = [Episode]()
@@ -19,38 +24,15 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     // set default episode/row
     var episode: Episode? = Episode(key: "", title: "", description: "", location: "", star: 0)
     
-    var shimmeringView: FBShimmeringView!
+    weak var delegate: HideNavBarDelegate?
+    var lastContentOffset: CGFloat = 0
     
-    @IBOutlet var Open: UIBarButtonItem!
     @IBOutlet var tableView: UITableView!
     var ep: Dictionary<String,AnyObject?> = [:]
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-        // Add white background for status bar for when the nav bar is gone
-        let statusFrame = CGRectMake(0.0, 0, self.view.bounds.size.width,
-                                     UIApplication.sharedApplication().statusBarFrame.size.height)
-        let statusBar = UIView(frame: statusFrame)
-        statusBar.backgroundColor = UIColor.whiteColor()
-        self.view.addSubview(statusBar)
-        // reveal view controller delegate
-        Open.target = self.revealViewController()
-        Open.action = #selector(SWRevealViewController.revealToggle(_:))
-        
-        // add pan gesture
-        self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
-        
-        let navLabel = UILabel()
-        navLabel.text = "Oliu Loading Long Page"
-        navLabel.textAlignment = .Center
-        
-        // Facebook shimmering title
-        self.shimmeringView = FBShimmeringView(frame: CGRectMake(0, 0, 200, (self.navigationController?.navigationBar.bounds.height)!))
-        self.shimmeringView.contentView = navLabel
-        self.navigationItem.titleView = self.shimmeringView
-        self.shimmeringView.shimmering = true
         
         // This is asynchronous firebase databse call.
         rootRef.observeEventType(.Value) { (snap: FIRDataSnapshot) in
@@ -74,9 +56,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                     self.tableView.reloadData()
                 })
             }
-            // set shimmering off
-            self.shimmeringView.shimmering = false
         }
+        tableView.frame = self.view.bounds;
     }
     
     
@@ -94,6 +75,26 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             "cell", forIndexPath: indexPath) as! CustomCell
         cell.episode = episodes[indexPath.row]
         return cell
+    }
+    
+    func tableView(tableView: UITableView, willDisplayCell cell: UITableViewCell, forRowAtIndexPath indexPath: NSIndexPath) {
+        if cell.respondsToSelector(Selector("setSeparatorInset:")) {
+            cell.separatorInset = UIEdgeInsetsZero
+        }
+        if cell.respondsToSelector(Selector("setPreservesSuperviewLayoutMargins:")) {
+            cell.preservesSuperviewLayoutMargins = false
+        }
+        if cell.respondsToSelector(Selector("setLayoutMargins:")) {
+            cell.layoutMargins = UIEdgeInsetsZero
+        }
+    }
+    
+    func scrollViewWillBeginDragging(scrollView: UIScrollView) {
+//        delegate?.hideBar(self)
+    }
+    
+    func scrollViewDidEndDecelerating(scrollView: UIScrollView) {
+//        delegate?.unhideBar(self)
     }
 }
 

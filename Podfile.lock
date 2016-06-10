@@ -29,6 +29,7 @@ PODS:
   - GoogleSymbolUtilities (1.1.1)
   - GoogleUtilities (1.3.1):
     - GoogleSymbolUtilities (~> 1.0)
+  - PageMenu (1.2.9)
   - PKRevealController (2.0.6)
   - XLPagerTabStrip (5.0.0)
 
@@ -36,6 +37,7 @@ DEPENDENCIES:
   - Firebase
   - Firebase/Database
   - Firebase/Storage
+  - PageMenu
   - PKRevealController
   - XLPagerTabStrip (~> 5.0)
 
@@ -49,9 +51,10 @@ SPEC CHECKSUMS:
   GoogleNetworkingUtilities: 3e83269048cfb498dc7ec83ab36813360965c74f
   GoogleSymbolUtilities: 33117db1b5f290c6fbf259585e4885b4c84b98d7
   GoogleUtilities: 56c5ac05b7aa5dc417a1bb85221a9516e04d7032
+  PageMenu: ba19ff267f7a19e444e93c20a7847b78954a7011
   PKRevealController: ffb45a16f5a5032ad90a3d16e5cbb0d8e035bd58
   XLPagerTabStrip: 87b8b705f9a7178e76a063ffaa2d70045944a965
 
-PODFILE CHECKSUM: f695d020961fd4577c056d29fdce836821d8bc6c
+PODFILE CHECKSUM: ae66bce0fb670e47ccfd390cc51a4a392db99f7f
 
 COCOAPODS: 1.0.0

@@ -11,6 +11,7 @@
 		1049342A1CFD441200A7D95A /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104934291CFD441200A7D95A /* Episode.swift */; };
 		1069DA091CFF01520062A36B /* Second.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1069DA081CFF01520062A36B /* Second.swift */; };
 		10A9BC341CFEE00F0040EB6C /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A9BC331CFEE00F0040EB6C /* SWRevealViewController.m */; };
+		10AF95A91D0A7B5D00B334EF /* PageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AF95A81D0A7B5D00B334EF /* PageMenu.swift */; };
 		10B4714A1CFEED0900BC2100 /* BackTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B471491CFEED0900BC2100 /* BackTableVC.swift */; };
 		10C59AC01D03D9F200968504 /* FBShimmeringLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C59ABD1D03D9F200968504 /* FBShimmeringLayer.m */; };
 		10C59AC11D03D9F200968504 /* FBShimmeringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C59ABF1D03D9F200968504 /* FBShimmeringView.m */; };
@@ -31,6 +32,7 @@
 		10A9BC311CFEE00F0040EB6C /* CardView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CardView-Bridging-Header.h"; sourceTree = "<group>"; };
 		10A9BC321CFEE00F0040EB6C /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		10A9BC331CFEE00F0040EB6C /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		10AF95A81D0A7B5D00B334EF /* PageMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageMenu.swift; sourceTree = "<group>"; };
 		10B471491CFEED0900BC2100 /* BackTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackTableVC.swift; sourceTree = "<group>"; };
 		10C59ABA1D03D9F200968504 /* FBShimmering-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBShimmering-Prefix.pch"; sourceTree = "<group>"; };
 		10C59ABB1D03D9F200968504 /* FBShimmering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmering.h; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				10B471491CFEED0900BC2100 /* BackTableVC.swift */,
 				1069DA081CFF01520062A36B /* Second.swift */,
 				10E04F7C1CFD39B2008A2818 /* ViewController.swift */,
+				10AF95A81D0A7B5D00B334EF /* PageMenu.swift */,
 				104934291CFD441200A7D95A /* Episode.swift */,
 				104934271CFD422900A7D95A /* CustomCell.swift */,
 				10E04F7A1CFD39B2008A2818 /* AppDelegate.swift */,
@@ -262,6 +265,7 @@
 				104934281CFD422900A7D95A /* CustomCell.swift in Sources */,
 				1069DA091CFF01520062A36B /* Second.swift in Sources */,
 				10C59AC01D03D9F200968504 /* FBShimmeringLayer.m in Sources */,
+				10AF95A91D0A7B5D00B334EF /* PageMenu.swift in Sources */,
 				10C59AC11D03D9F200968504 /* FBShimmeringView.m in Sources */,
 				10E04F7B1CFD39B2008A2818 /* AppDelegate.swift in Sources */,
 			);

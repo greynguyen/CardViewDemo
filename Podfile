@@ -14,6 +14,6 @@ pod 'Firebase/Database'
 pod 'PKRevealController'
 pod 'Firebase/Storage'
 pod 'XLPagerTabStrip', '~> 5.0'
-
+pod 'PageMenu'
 
 end
